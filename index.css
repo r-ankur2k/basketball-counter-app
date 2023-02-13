@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    text-align: center;
+    color: white ;
+}
+h2{
+    color: #0a0001;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+.score {
+    background: #0a0001;
+    font-size: 75px;
+    color: #F94F6D;
+    width: 125px;
+    height: 95px;
+    margin: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1f009d;
+    padding: 15px ;
+    border-radius: 5px
+}
+
+button {
+    background: none;
+    color: white ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 5px;
+    border-color: rgb(156, 148, 243);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#btn{
+    color: black ;
+    background-color: greenyellow ; 
+    border-radius: 10px ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#btn1{
+    background-color: #1f009d;
+    border-radius: 5px
+}
+#winMsg{
+    color: black ;
+    font-family:'Times New Roman', Times, serif;
+    
+}

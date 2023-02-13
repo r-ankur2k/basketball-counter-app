@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="column">
+                <h3 id="winnerHome" onclick="winnerReveal()">HOME</h3>
+                <h2 class="score" id="scoreCountHome">0</h2>
+                <div>
+                    <button id="plusOne" onclick="plusOneHome()">+1</button>
+                    <button id="plusTwo" onclick="plusTwoHome()">+2</button>
+                    <button id="plusThree" onclick="plusThreeHome()">+3</button>
+                </div>
+                <br>
+                <div>
+                    <button id="plusOne" onclick="foulCountHome()">Fouls </button>
+                    <button id="foulCountForHome">0</button>
+                    
+                </div>
+            </div>
+            <div class="column">
+                <h3 id="winnerGuest" onclick="winnerReveal()">GUEST</h3>
+                <h2 class="score" id="scoreCountGuest">0</h2>
+                <div>
+                    <button onclick="plusOneGuest()">+1</button>
+                    <button onclick="plusTwoGuest()">+2</button>
+                    <button onclick="plusThreeGuest()">+3</button>
+                </div>
+                <br>
+                <div>
+                    <button id="plusOne" onclick="foulCountGuest()">Fouls </button>
+                    <button id="foulCountForGuest">0</button>
+                </div>
+            </div>
+        </div>
+        <button id="btn1" onclick="winnerReveal()">Winner</button>
+        <div>
+            <p id="winMsg" onclick="winnerReveal()">Waiting Game to Finish</p>
+        </div>
+        
+        <button id="btn" onclick="newGame()">NEW GAME</button>
+        <script src="index.js"></script>
+    </body>
+</html>
