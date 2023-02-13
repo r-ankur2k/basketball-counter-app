@@ -2,6 +2,11 @@ body {
     margin: 0;
     text-align: center;
     color: white ;
+    
+}
+.heading{
+    color: #0a0001;
+    border:3px solid rgb(244, 21, 21)
 }
 h2{
     color: #0a0001;
@@ -41,6 +46,7 @@ button {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 #btn1{
+    margin-top: 10px;
     background-color: #1f009d;
     border-radius: 5px
 }
