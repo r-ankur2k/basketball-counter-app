@@ -55,3 +55,9 @@ button {
     font-family:'Times New Roman', Times, serif;
     
 }
+footer{
+    margin-top: 70px;
+    text-align: center;
+    color: #0a0001;
+    text-decoration: none;
+}
